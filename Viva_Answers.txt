@@ -1,0 +1,24 @@
+Student Name: KHADIJA ABID
+Seat Number: B25110006065
+Section: B
+Date: 25 July 2026
+
+WEEK 1 QUICK VIVA ANSWERS
+
+1. An attribute stores an object's data or state. A behaviour is an action the object can perform through a method.
+
+2. The new keyword creates a new Car object in heap memory and calls its constructor.
+
+3. bmw stores a reference to the Car object, not the complete object itself.
+
+4. bmw and tesla are separate objects. Each object has its own copy of the instance fields, so their state can be different.
+
+5. this.brand means the field of the current object. brand without this is the parameter received by the method.
+
+6. The dot operator selects a field or method through an object reference. In bmw.startEngine(), it calls startEngine() for the object referenced by bmw.
+
+7. The fields are private to protect the object's state. Other classes must use the public methods, where rules can be checked.
+
+8. Main is kept separate because Car describes the model, while Main creates objects and tests them. This keeps each class focused on one purpose.
+
+9. divide() checks the second operand. If it is zero, it throws an IllegalArgumentException with a clear message instead of returning an incorrect answer.

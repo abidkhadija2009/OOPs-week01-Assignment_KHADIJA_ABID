@@ -1,0 +1,84 @@
+Student Name: KHADIJA ABID
+Seat Number: B25110006065
+Section: B
+Date: 25 July 2026
+
+==================== CAR DEMO ====================
+
+TEST 1 - ENGINE-OFF RULE
+BMW cannot move because the engine is off.
+
+TEST 2 - BMW MOVEMENT AND TURBO
+BMW engine started.
+BMW is driving at 20 km/h.
+BMW increased speed to 50 km/h.
+BMW turned left.
+BMW turbo mode activated at 100 km/h.
+BMW horn sounded.
+
+TEST 3 - TESLA MOVEMENT
+Tesla engine started.
+Tesla is driving at 20 km/h.
+Tesla turned right.
+Tesla slowed down to 5 km/h.
+
+TEST 4 - INDEPENDENT OBJECT STATES
+BMW state:
+Brand     : BMW
+Color     : Black
+Speed     : 100 km/h
+Fuel      : 53.5%
+Gear      : 5
+Direction : Left
+Engine on : true
+Turbo on  : true
+
+Tesla state:
+Brand     : Tesla
+Color     : Red
+Speed     : 5 km/h
+Fuel      : 34.0%
+Gear      : 1
+Direction : Right
+Engine on : true
+Turbo on  : false
+
+TEST 5 - STOP ENGINE RULE
+BMW engine stopped.
+Brand     : BMW
+Color     : Black
+Speed     : 0 km/h
+Fuel      : 53.5%
+Gear      : 0
+Direction : Left
+Engine on : false
+Turbo on  : false
+
+Null reference check: futureCar = null
+
+================= CALCULATOR DEMO =================
+
+BASIC OPERATIONS
+10 + 5 = 15.0
+10 - 5 = 5.0
+10 * 5 = 50.0
+10 / 5 = 2.0
+
+NEW OPERATION 1 - MODULUS
+Normal case: 17 % 5 = 2.0
+Edge case: Cannot calculate modulus by zero.
+
+NEW OPERATION 2 - POWER
+Normal case: 2^5 = 32.0
+Edge case: 9^0 = 1.0
+
+NEW OPERATION 3 - AVERAGE WITH VARARGS
+Normal case: average(10, 20, 30, 40) = 25.0
+Edge case: Average needs at least one number.
+
+NEW OPERATION 4 - MAXIMUM WITH VARARGS
+Normal case: maximum(4, 18, 7, 12) = 18.0
+Edge case: Maximum needs at least one number.
+
+INVALID DIVISION TEST
+Cannot divide by zero.
